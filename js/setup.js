@@ -44,7 +44,6 @@ document.querySelector('.setup-similar').classList.remove('hidden');
 
 var similarWizardElement = document.querySelector('.setup-similar-list');
 var similarWizardTemplate = document.querySelector('#similar-wizard-template').content.querySelector('.setup-similar-item');
-var similarWizardName = document.querySelector('.setup-similar-label');
 
 
 for (var i = 0; i < 4; i++) {
